@@ -35,7 +35,7 @@ Advantages of using Helm for deployment on a Kubernetes cluster:
 
 You should create two repositories. The first one is used to store the source code of our microservices, and the other one is used to externalize our configuration files with **Spring Cloud Config Server** you will find all code in the following repository:
 
-https://github.com/numerica-ideas/community/tree/master/kubernetes/spring-microservice-deployment-gitlab-helm.
+https://github.com/kemanedonfack/springboot-microservices-deployment-kubernetes-helm-gitlabci.
 
 Let's briefly highlight the importance of the folders present in that repository:
 
@@ -276,18 +276,7 @@ Great, everything went well, let's check our Kuberntes cluster and our applicati
 
 ![result-3](./images/result-3.png)
 
-The complete source code of the project is available on [GitHub](https://github.com/numerica-ideas/community/tree/master/kubernetes/spring-microservice-deployment-gitlab-helm).
-
-———————
-
-We have just started our journey to build a network of professionals to grow even more our free knowledge-sharing community that’ll give you a chance to learn interesting things about topics like cloud computing, software development, and software architectures while keeping the door open to more opportunities.
-
-Does this speak to you? If **YES**, feel free to [Join our Discord Server](https://discord.numericaideas.com) to stay in touch with the community and be part of independently organized events.
-
-———————
 
 ## Conclusion
 
 To sum up, we discussed the benefits of using **Helm** with **Kubernetes** to automate the deployment of **microservices**. It provides steps to set up a **CI/CD** pipeline using **GitLab CI** and Helm, allowing for efficient deployment of applications and increased productivity. By utilizing these technologies, developers can focus on coding, and automation can handle the rest, resulting in a reliable and scalable solution for deploying microservices in a modern software development environment.
-
-Thanks for reading this article, recommend and share if you enjoyed it. Follow us on [Facebook](https://www.facebook.com/numericaideas), [Twitter](https://twitter.com/numericaideas), and [LinkedIn](https://www.linkedin.com/company/numericaideas) for more content.
